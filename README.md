@@ -19,6 +19,7 @@ with pre-defined velocity been gravitationally attracted to cluster of 50 partic
 paramter shows 100 particles interacting in a 10x10x10 3D space.
 
 Below is the list of parameters that can be changed, and their effect:
+Common paramters:
 Nd - changes the dimension particle lives in
 Np - number of particles
 M - mass of the particle. Primarily affect strength of gravity.
@@ -27,3 +28,8 @@ Nt - total number of time step for animation. Affects the length of the animatio
 frame_duration - in ms, affects the speed of animation.
 v_max - magnitude of the drift velocity.
 klim - size of the k-space of power spectrum we're interested in.
+sft - magnitude of the attraction softening parameter. Higher value gives more softening at low distance.
+
+Project_1_orbit.py parameters:
+position[i][j] = x - change the position of particle j in dimension i to x
+velocity[i][j] = x - change the velocity of particle j in dimension i to x
