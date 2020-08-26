@@ -18,6 +18,7 @@ with pre-defined velocity been gravitationally attracted to cluster of 50 partic
 2. Project_1_random.py is the code that simulates N particles uniformly distributed in a periodic space with some random drift velocity. The default
 paramter shows 100 particles interacting in a 10x10x10 3D space.
 
+
 Below is the list of parameters that can be changed, and their effect:
 Common paramters:
 Nd - changes the dimension particle lives in
@@ -26,10 +27,12 @@ M - mass of the particle. Primarily affect strength of gravity.
 l - Half of the length of the box. Determines the size of the periodic space.
 Nt - total number of time step for animation. Affects the length of the animation.
 frame_duration - in ms, affects the speed of animation.
-v_max - magnitude of the drift velocity.
-klim - size of the k-space of power spectrum we're interested in.
 sft - magnitude of the attraction softening parameter. Higher value gives more softening at low distance.
 
 Project_1_orbit.py parameters:
 position[i][j] = x - change the position of particle j in dimension i to x
 velocity[i][j] = x - change the velocity of particle j in dimension i to x
+
+Project_1_random.py paramters:
+v_max - magnitude of the drift velocity.
+klim - size of the k-space of power spectrum we're interested in.
