@@ -10,6 +10,11 @@ The simulation outputs an animation of the particle's evolution, as well as the 
 
 You can freely change the parameters of the simulation located at the start of the file.
 
+How to run the code:
+1. Open the source code in your favourite Python 3 IDE
+2. Change the parameters to your liking
+3. Run the code! 
+4. It should show an animated graph of the simulation as well as a .mp4 video in the same directory as the source code.
 
 There are two codes incuded:
 1. Project_1_Orbital.py is the code that shows the gravitational interaction leads to orbital motion. The default parameter shows a single particle 
